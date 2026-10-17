@@ -1,0 +1,22 @@
+# 1. CRITICAL: Environment Variables (NEVER push these)
+.env
+.env.local
+.env.example
+
+# 2. Virtual Environments (Don't push your local Python environment)
+venv/
+.venv/
+env/
+
+# 3. Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 4. Local Database (Generated locally, don't need it in Git)
+company_db/
+
+# 5. OS Generated Files
+.DS_Store
+Thumbs.db
